@@ -1622,14 +1622,6 @@
 
 	}
 
-	body {
-		background-color: #935d8c;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-	}
-
 		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
 			-moz-animation: none !important;
 			-webkit-animation: none !important;
@@ -3561,11 +3553,11 @@
 		}
 
 		#main header.major h2:after {
-			background-color: #dddddd;
-			background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
-			background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0);
+			background-color: #3677d9;
+			background-image: -moz-linear-gradient(90deg, #3677d9, #323cc7, #783cf0);
+			background-image: -webkit-linear-gradient(90deg, #3677d9, #323cc7, #783cf0);
+			background-image: -ms-linear-gradient(90deg, #3677d9, #323cc7, #783cf0);
+			background-image: linear-gradient(90deg, #3677d9, #323cc7, #783cf0);
 		}
 
 		#main table tbody tr {

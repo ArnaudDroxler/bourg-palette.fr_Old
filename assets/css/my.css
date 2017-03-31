@@ -1,0 +1,19 @@
+#particle {
+    background-color: #004c93;
+    background-image: url("images/overlay.png"), linear-gradient(45deg, #0077b6 15%, #003793 85%);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    z-index:0;
+}
+#overlay {
+    position: relative;
+}
+
+#profil {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 180px;
+}
