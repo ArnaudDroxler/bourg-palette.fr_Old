@@ -7,6 +7,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<link rel="stylesheet" href="assets/css/my.css" />
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel="icon" class="icon fa-youtube-play" >
 	</head>
 	<body>
 		<div id="particle"></div>
@@ -15,12 +17,8 @@
 
 					<!-- Header -->
 					<header id="header" class="alt">
-                        <div class="image"><img id="profil" src="images/profil.jpg" alt="" /></div>
-                        <h1>Arnaud Droxler</h1>
-						<h2>Software engineer</h2>
-                        <p>
-							bla bla bla
-                        </p>
+                        <h1 id="quote"></h1>
+						<h2 id="author"></h2>
 					</header>
 
 					<!-- Nav -->
@@ -38,12 +36,192 @@
 							<div class="spotlight">
 								<div class="content">
 									<header class="major">
-										<h2>Welcome</h2>
+										<h2>Hello</h2>
 									</header>
-									<p>Sed lorem ipsum dolor sit amet nullam consequat feugiat consequat magna
-										adipiscing magna etiam amet veroeros. Lorem ipsum dolor tempus sit cursus.
-										Tempus nisl et nullam lorem ipsum dolor sit amet aliquam.
+									<p>
+										I'm Arnaud Droxler, a Master student in Computure Science at <a href="https://www.hes-so.ch/">Hes-So</a> in Lausanne. <br>
+										My center of interest are focus on computeur graphique, video games and game designe. I am also a musician who plays several instruments such as piano, guitar and percussion.<br>
+										You can have a overview of myself by downloading my <a href="download/CV_DroxlerArnaud.pdf">resume</a>.<br>
+										On this site, you can find the most interesting projects I have worked on during these last years.<br>
+
 									</p>
+								</div>
+								<span class="image"><img src="images/profil.jpg" alt="" /></span>
+							</div>
+						</section>
+
+						<section id="project" class="main special">
+								<div class="content">
+									<header class="major">
+										<h2>Projects</h2>
+									</header>
+									<p>
+										On this section, I present some of the most interesting projects I've been working on whether personal or group work.<br>
+										It mainly concerns computer science but it also contains music projects.
+									</p>
+
+									<hr>
+
+									<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images/water.jpg" alt="" /></span></div>
+									</div>
+									<br>
+									<h2>WebGL Water</h2>
+									<p>
+										A personal project, the goal was to create a ocean simulation with water reflection and refraction
+									</p>
+									<h3>November 2017</h3>
+									<ul class="actions small">
+										<li><a href="https://arnauddroxler.github.io/WebGL-Water/" class="button small">Try it !</a></li>
+									</ul>
+									<a href="https://github.com/ArnaudDroxler/WebGL-Water" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+									<hr>
+
+                                    <div class="row uniform">
+                                        <div class="12u$"><span class="image fit"><img src="images/holomed.jpg" alt="" /></span></div>
+                                    </div>
+                                    <br>
+                                    <h2>HoloM3D</h2>
+                                    <p>
+										My bachelor thesis, the goal of the project HoloM3D is to use the HoloLens helmet from Microsoft<br> for visualize 3D matrix from medical data like IRM or CT-Scan. <br>
+										My goal in this project was to create a pre-prototype to evaluate the feasibility of the project.
+                                    </p>
+									<h3>May - August 2017</h3>
+                                    <ul class="actions small">
+                                        <li><a href="download/HoloM3D.zip" class="button small" download>Download it !</a></li>
+										<li><a href="download/rapport_Holomed_DroxlerArnaud.pdf" class="button small" download>Read the report</a></li>
+                                    </ul>
+
+                                    <hr>
+
+									<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images/celshading.jpg" alt="" /></span></div>
+									</div>
+									<br>
+									<h2>WebGL Cel Shading </h2>
+									<p>
+										A personnal project, the goal was to implement a cel-shading rendering with shadow mapping.
+									</p>
+									<h3>March 2017</h3>
+									<ul class="actions small">
+										<li><a href="https://arnauddroxler.github.io/WebGL-CelShading/" class="button small">Try it !</a></li>
+									</ul>
+									<a href="https://github.com/ArnaudDroxler/WebGL-CelShading" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+									<hr>
+
+                                    <div class="row uniform">
+                                        <div class="12u$"><span class="image fit"><img src="images/pathtracing.jpg" alt="" /></span></div>
+                                    </div>
+                                    <br>
+                                    <h2>WebGL Path Tracing</h2>
+                                    <p>
+										A computer graphics course project, the goal was to implemente a path-tracing in real time. <br>
+										The path tracing use a ray tracing algorithme for compute the global illumination  of the 3D scene.
+                                    </p>
+									<h3>November 2016 - January 2017 </h3>
+                                    <ul class="actions small">
+                                        <li><a href="https://arnauddroxler.github.io/WebGL-PathTracing/" class="button small">Try it !</a></li>
+                                    </ul>
+                                    <a href="https://github.com/ArnaudDroxler/WebGL-PathTracing" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+                                    <hr>
+
+									<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images/cadexmus.jpg" alt="" /></span></div>
+									</div>
+									<br>
+									<h2>Cadexmus 2</h2>
+									<p>
+										A Semester School project, it is a revolutionary web application for collaborative music creation. <br> You can use it with your friend for compose the new hit of the year.
+										After have create a new project, you can invite your friend to it and begin to collaborate. The application allow you to create loop and add sample to it. All your modification are updated at your friends.
+										A chat is at your disposal to concentrate your creatitive. A bank of sample is available and you can add your personnal sample to it for the communitie.
+									</p>
+									<h3>October - December 2016</h3>
+									<ul class="actions small">
+										<li><a href="http://cadexmus.com" class="button small">Try it !</a></li>
+									</ul>
+									<a href="https://github.com/HE-Arc/cadexmus2" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+									<hr>
+
+									<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images/rattco.jpg" alt="" /></span></div>
+									</div>
+									<br>
+									<h2>RATTCO - Ramasse des Armes par Terre et Tire sur tes Copains Online</h2>
+									<p>
+										A Summer School project, it's a doom-like multiplayer game. <br> In the game, you can shoot your friend with several types of weapons, pick up ammo and medipack.<br>
+										The game engine is built from scratch and it's use the ray-casting method for draw pixel on the screen.
+										The programme contains a client and a server, you must be in the same local network of the serveur, to be able to connect with the client.
+										You can easily create new map for the game with simple png.
+									</p>
+									<h3>August - September 2016</h3>
+									<ul class="actions small">
+										<li><a href="download/RATTCO.zip" class="button small" download>Download it !</a></li>
+										<li><a href="download/Rapport_P2_JAVA_Printemps_Droxler-Perez.pdf" class="button small" download>Read the report</a></li>
+									</ul>
+									<a href="https://github.com/ArnaudDroxler/Ramasse-des-armes-par-terre-et-tire-sur-tes-copains-online" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+									<hr>
+
+                                    <div class="row uniform">
+                                        <div class="12u$"><span class="image fit"><img src="images/game01.gif" alt="" /></span></div>
+                                    </div>
+                                    <br>
+                                    <h2>Conway's Game of Life</h2>
+                                    <p>
+										A little personal project, a simple implementation of the Conway's Game of Life in JavaScript.
+                                    </p>
+									<h3>May 2016</h3>
+                                    <ul class="actions small">
+                                        <li><a href="http://arnauddroxler.github.io/Game-of-Life/" class="button small">Try it !</a></li>
+                                    </ul>
+                                    <a href="https://github.com/ArnaudDroxler/Game-of-Life" class="icon fa-github alt"><span class="label">GitHub</span></a>
+
+									<hr>
+
+									<div class="row uniform">
+										<div class="12u$"><span class="image fit"><img src="images/rimba.jpg" alt="" /></span></div>
+									</div>
+									<br>
+									<h2>Rimbatube</h2>
+									<p>
+										My first personal project, inspired by the videos of <a href="https://www.youtube.com/user/snubbyj">snubby j</a>, I decided to build my own musical instrument.
+										It consists of about thirty PVC tubes of different sizes and it's call Rimbatube. <br>
+										It plays like a xylophone or a piano and the sound he produces is very special and unique. I usually play pop culture song on it, like movie or video game theme.
+									</p>
+									<h3>March 2014</h3>
+									<ul class="actions small">
+										<li><a href="http://arnauddroxler.github.io/Game-of-Life/" class="button small">Try it !</a></li>
+									</ul>
+									<a href="https://www.youtube.com/watch?v=CG2_ftxFS-E" class="icon fa-youtube-play alt"><span class="label">Youtube</span></a>
+
+								</div>
+						</section>
+
+						<section id="contact" class="main special">
+							<div class="spotlight">
+								<div class="content">
+									<header class="major">
+										<h2>Contact</h2>
+									</header>
+									<p>
+										If you have any questions, or you would like to approach me, use the following information :
+									</p>
+									<p>
+										<b>Address</b> : Louis Favre 22 Neuchâtel 2000<br>
+										<b>Phone</b>  : +33 7 85 52 68 27 <br>
+										<b>Email</b>  : <a href="mailto:arnaud.droxler@gmail.com">arnaud.droxler@gmail.com</a> <br>
+									</p>
+
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/droxler.arnaud" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+										<li><a href="https://github.com/ArnaudDroxler" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+										<li><a href="http://www.linkedin.com/in/arnaud-droxler-927876120/" class="icon fa-linkedin alt"><span class="label">Linkedin</span></a></li>
+										<li><a href="http://steamcommunity.com/profiles/76561198084962675/" class="icon fa-steam alt"><span class="label">Instagram</span></a></li>
+									</ul>
 								</div>
 							</div>
 						</section>
@@ -58,18 +236,49 @@
 					</footer>
 			</div>
         </div>
-		<script src="assets/js/particles.js"></script>
-		<script>
-            particlesJS.load('particle', 'assets/json/particles.json', function() {
-                console.log('particles.js loaded - callback');
-            });
-		</script>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/jquery.scrolly.min.js"></script>
 		<script src="assets/js/skel.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script src="assets/js/particles.js"></script>
+		<script>
+            particlesJS.load('particle', 'assets/json/particles.json', function() {
+                console.log('particles.js loaded - callback');
+            });
 
+            var quoteSource=[
+                {
+                    quote: "It’s not a bug – it’s an undocumented feature.",
+                    name:"Anonymous"
+                },
+                {
+                    quote: "Deleted code is debugged code.",
+                    name:"Jeff Sickel"
+                },
+                {
+                    quote: "A programming language is low level when its programs require attention to the irrelevant.",
+                    name:"Alan J. Perlis"
+                },
+                {
+                    quote: "Java is to JavaScript as ham is to hamster.",
+                    name:"Jeremy Keith"
+                },
+                {
+                    quote: "Most good programmers do programming not because they expect to get paid , but because it is fun to program.",
+                    name:"Linus Torvalds"
+                }
+
+
+            ];
+
+            var sourceLength = quoteSource.length;
+            var randomNumber= Math.floor(Math.random()*sourceLength);
+
+            $('#quote').text(quoteSource[randomNumber].quote);
+            $('#author').text(quoteSource[randomNumber].name);
+
+		</script>
 	</body>
 </html>
