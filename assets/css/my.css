@@ -20,3 +20,7 @@
     margin: 0 auto;
     border-radius: 180px;
 }
+
+.notcenter{
+    display: inline-block; text-align: left;
+}
